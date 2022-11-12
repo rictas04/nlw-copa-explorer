@@ -1,0 +1,83 @@
+ricta@RICTAS MINGW64 ~/OneDrive/Rocketseat/nlw-copa-explorer
+$ pwd
+/c/Users/ricta/OneDrive/Rocketseat/nlw-copa-explorer
+
+ricta@RICTAS MINGW64 ~/OneDrive/Rocketseat/nlw-copa-explorer
+$ git init
+Initialized empty Git repository in C:/Users/ricta/OneDrive/Rocketseat/nlw-copa-explorer/.git/
+
+ricta@RICTAS MINGW64 ~/OneDrive/Rocketseat/nlw-copa-explorer (master)
+$ git add .
+
+ricta@RICTAS MINGW64 ~/OneDrive/Rocketseat/nlw-copa-explorer (master)
+$ git commit -m ":tada: Commit Inicial"
+[master (root-commit) 9d9f03c] :tada: Commit Inicial
+ 24 files changed, 1828 insertions(+)
+ create mode 100644 .vscode/settings.json
+ create mode 100644 assets/bg-blue.png
+ create mode 100644 assets/bg-blue.svg
+ create mode 100644 assets/bg-green.png
+ create mode 100644 assets/bg-green.svg
+ create mode 100644 assets/bg-yellow.png
+ create mode 100644 assets/bg-yellow.svg
+ create mode 100644 assets/bg.png
+ create mode 100644 assets/desktop.png
+ create mode 100644 assets/favicon.gif
+ create mode 100644 assets/icon-brazil.png
+ create mode 100644 assets/icon-brazil.svg
+ create mode 100644 assets/icon-cameroon.png
+ create mode 100644 assets/icon-cameroon.svg
+ create mode 100644 assets/icon-serbia.png
+ create mode 100644 assets/icon-serbia.svg
+ create mode 100644 assets/icon-switzerland.png
+ create mode 100644 assets/icon-switzerland.svg
+ create mode 100644 assets/logo.png
+ create mode 100644 assets/logo.svg
+ create mode 100644 assets/mobile.png
+ create mode 100644 index.html
+ create mode 100644 main.js
+ create mode 100644 style.css
+
+ricta@RICTAS MINGW64 ~/OneDrive/Rocketseat/nlw-copa-explorer (master)
+$ git branch -M main
+
+ricta@RICTAS MINGW64 ~/OneDrive/Rocketseat/nlw-copa-explorer (main)
+$ git remote add origin https://github.com/rictas04/nlw-copa-explorer.git
+
+ricta@RICTAS MINGW64 ~/OneDrive/Rocketseat/nlw-copa-explorer (main)
+$ git push -u origin main
+Enumerating objects: 28, done.
+Counting objects: 100% (28/28), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (27/27), done.
+Writing objects: 100% (28/28), 1.65 MiB | 1.82 MiB/s, done.
+Total 28 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/rictas04/nlw-copa-explorer.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+ricta@RICTAS MINGW64 ~/OneDrive/Rocketseat/nlw-copa-explorer (main)
+$ git add .
+
+ricta@RICTAS MINGW64 ~/OneDrive/Rocketseat/nlw-copa-explorer (main)
+$ git commit -m "add README.md"
+[main 763a4cf] add README.md
+ 3 files changed, 47 insertions(+), 1 deletion(-)
+ create mode 100644 .github/preview.jpg
+ create mode 100644 README.md
+
+ricta@RICTAS MINGW64 ~/OneDrive/Rocketseat/nlw-copa-explorer (main)
+$ git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 440.43 KiB | 19.15 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/rictas04/nlw-copa-explorer.git
+   9d9f03c..763a4cf  main -> main
+
+ricta@RICTAS MINGW64 ~/OneDrive/Rocketseat/nlw-copa-explorer (main)
+$
