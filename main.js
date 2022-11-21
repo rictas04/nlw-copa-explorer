@@ -192,3 +192,4 @@ document.querySelector("#cards4").innerHTML =
 document.querySelector("#cards5").innerHTML =
   //Retorna um cartão novo
   createCard("18/12", "domingo", createGame("", "inverse", "12:00", "inverse"))
+  
